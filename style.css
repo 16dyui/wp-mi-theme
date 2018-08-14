@@ -1,0 +1,24 @@
+@charset "UTF-8";
+/*
+	Theme Name:wiki
+	Version:nightly
+	License URI:https://siteyui.site/author/
+	Author:Ryuki Maruyama
+*/
+.sidenav div{
+	background:white;
+}
+main{
+	padding-left:300px;
+}
+.sidenav div li.active{
+	background-color:#ee6e73;
+}
+.sidenav div li.active a{
+	color:white;
+}
+@media (max-width:992px){
+	main{
+		padding-left:0;
+	}
+}
