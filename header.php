@@ -1,11 +1,8 @@
-<?php
-	global $template; $tempname=basename($template, '.php');
-?>
+<?php global $template; $tempname=basename($template, '.php'); ?>
 <!doctype html>
 <html>
 	<head>
 		<title><?php bloginfo( 'name' ); wp_title(); ?></title>
-		<link rel="SHORTCUT ICON" href="<?=get_template_directory_uri();?>/img/favicon.ico">
 		<meta name="viewport" content="width=device-width,initial-scale=1">
 		<meta charset="utf-8">
 		<script src="<?=get_template_directory_uri();?>/ext/pr.js" async></script>
