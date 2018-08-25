@@ -1,4 +1,4 @@
 $(document).ready(function() {
 	M.AutoInit();
-	$('img').materialbox();
+	$('main section img').materialbox();
 });
