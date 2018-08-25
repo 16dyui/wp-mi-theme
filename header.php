@@ -6,8 +6,8 @@
 		<meta name="viewport" content="width=device-width,initial-scale=1">
 		<meta charset="utf-8">
 		<script src="<?=get_template_directory_uri();?>/ext/pr.js" async></script>
-		<script src="<?=get_template_directory_uri();?>/ext/mt.js" defer></script>
 		<script src="<?=get_template_directory_uri();?>/ext/jquery.js" defer></script>
+		<script src="<?=get_template_directory_uri();?>/ext/mt.js" defer></script>
 		<script src="<?=get_template_directory_uri();?>/ext/main.js" defer></script>
 		<?php wp_head(); ?>
 	</head>

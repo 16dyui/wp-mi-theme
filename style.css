@@ -17,6 +17,9 @@ main{
 .sidenav div li.active a{
 	color:white;
 }
+main section img{
+	max-width:100%;
+}
 @media (max-width:992px){
 	main{
 		padding-left:0;
